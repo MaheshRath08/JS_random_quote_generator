@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0%;
+}
+body{
+    background-color: rgb(250, 244, 236);
+}
+.container{
+    max-width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.display{
+    height: 40vh;
+    margin-top: 5rem;
+}
+.heading{
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    color: black;
+    text-shadow: 1px 2px 3px gray;
+}
+button{
+    padding: 1rem 5rem;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #1f1f1f;
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #2f2f22;
+}
+button:hover{
+    background-color: #2b2b2b;
+    transform: scale(1.1);
+    color: gold;
+}
+.quotes{
+    font-size: 3rem;
+    font-family:fantasy;
+    letter-spacing: 2px;
+    color: #555;
+}
+.display p{
+    font-size: 2rem;
+    text-align: right;
+    font-style: italic;
+    font-family: fantasy;
+    color: #555;
+}
