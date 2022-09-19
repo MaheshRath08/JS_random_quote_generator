@@ -34,6 +34,36 @@ const quotes = [
     {
         quote:"I haven't failed. I've just found 10,000 ways that won't work.",
         source:"Thomas Edison"
+    },{
+        quote:"Life is what happens when you're busy making other plans.",
+        source:"John Lennon"
+    },{
+        quote:"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",
+        source:"James Cameron"
+    },{
+        quote:"“Fear is the greatest obstacle to learning. But fear is your best friend.",
+        source:"Mike Tyson"
+    },{
+        quote:"“Everyone has a plan until they get punched in the mouth.”",
+        source:"Mike Tyson"
+    },{
+        quote:"The way to get started is to quit talking and begin doing.",
+        source:"Walt Disney"
+    },{
+        quote:"The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        source:"Nelson Mandela"
+    },{
+        quote:"Don't judge each day by the harvest you reap but by the seeds that you plant.",
+        source:"Robert Louis Stevenson"
+    },{
+        quote:"Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+        source:"Benjamin Franklin"
+    },{
+        quote:"It is during our darkest moments that we must focus to see the light.",
+        source:"Aristotle"
+    },{
+        quote:"Kill tension before tensions kill you, reach your goal before goal kicks you, live life before life leaves you.",
+        source:"anonymous"
     }
 ]
 
@@ -50,4 +80,12 @@ function getQuote(){
 
 btn.addEventListener("click", ()=>{
     getQuote()
+    animation()
 })
+
+function animation(){
+    document.body.classList.add("anim")
+    setTimeout(()=>{
+        document.body.classList.remove("anim")
+    },200)
+}
